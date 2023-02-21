@@ -1,2 +1,64 @@
 {
+  "name": "Infineon - XENSIV™ config tool",
+  "short_name": "XENSIV™ config tool",
+  "description": "The XENSIV™ config tool is used to configure and tune use-case application running on the XENSIV™ connected sensor kit (CSK). The XENSIV™ connected sensor kit (CSK) solves the four biggest challenges of any IoT device development and deployment: sensing the world around us (sense), making sense of the raw data (compute), and connecting devices to the cloud (connect).",
+  "theme_color": "#9BC3B7",
+  "background_color": "#A6989A",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "id": "/",
+  "orientation": "portrait",
+  "lang": "en",
+  "dir": "auto",
+  "icons": [
+    {
+      "src": "/xensiv-config-tool/img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/xensiv-config-tool/img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/xensiv-config-tool/img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/xensiv-config-tool/img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+}
+  ],
+  "display_override": ["standalone"],
+  "categories": ["utilities"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/xensiv-config-tool/img/icons/android-chrome-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/xensiv-config-tool/img/screenshots/homepage.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide"
+    }
+  ]
 }
