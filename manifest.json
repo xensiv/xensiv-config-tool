@@ -5,9 +5,9 @@
   "theme_color": "#9BC3B7",
   "background_color": "#A6989A",
   "display": "standalone",
-  "scope": "./",
-  "start_url": "./",
-  "id": "/",
+  "scope": "/xensiv-config-tool/",
+  "start_url": "/xensiv-config-tool/",
+  "id": "/xensiv-config-tool/",
   "orientation": "portrait",
   "lang": "en",
   "dir": "auto",
@@ -42,7 +42,7 @@
   "shortcuts": [
     {
       "name": "Dashboard",
-      "url": "/",
+      "url": "/xensiv-config-tool/",
       "icons": [
         {
           "src": "/xensiv-config-tool/img/icons/android-chrome-96x96.png",
